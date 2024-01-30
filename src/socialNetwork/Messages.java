@@ -1,5 +1,5 @@
 package socialNetwork;
 
-public class Messages {
+public class Messages extends Post{
 
 }

@@ -1,5 +1,5 @@
 package socialNetwork;
 
-public class Pictures {
-
+public class Pictures extends Post{
+	
 }
