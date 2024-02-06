@@ -4,15 +4,21 @@ import java.util.ArrayList;
 import java.util.UUID;
 
 public class Messages extends Post{
-
-	public Messages(UUID id, String userName, long timeStamp, int likeCount, ArrayList<String> comments) {
-		super(id, userName, timeStamp, likeCount, comments);
-	}
 	
+	public String text;
+
+	public Messages(UUID id, String userName, long timeStamp, int likeCount, ArrayList<String> comments, String text) {
+		super(id, userName, timeStamp, likeCount, comments);
+		this.text = text;
+	}
+
+
+
 	public String toString(){
 		return 	"Post ID: " + this.id +
 				"\n Username: " + this.userName +
 				"\nTimestamp: " + this.timeStamp +
+				"\nMessage sent: " + this.text +
 				"\nLike Counter: " + this.likeCount;
 				}
 }

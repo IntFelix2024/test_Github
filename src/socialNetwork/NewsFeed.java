@@ -19,7 +19,6 @@ public class NewsFeed {
 		this.feed = feed;
 	}
 
-
 	public void deletePost(UUID id) {	
 		for(Post p : feed) {
 			if(p.getId().equals(id)) {
