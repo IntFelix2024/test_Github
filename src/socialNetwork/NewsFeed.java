@@ -24,8 +24,7 @@ public class NewsFeed {
 		for(Post p : feed) {
 			if(p.getId().equals(id)) {
 				feed.remove(p);
-			}
-			
+			}	
 		}
 	}
 	
