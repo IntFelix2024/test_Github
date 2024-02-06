@@ -9,4 +9,10 @@ public class Messages extends Post{
 		super(id, userName, timeStamp, likeCount, comments);
 	}
 	
+	public String toString(){
+		return 	"Post ID: " + this.id +
+				"\n Username: " + this.userName +
+				"\nTimestamp: " + this.timeStamp +
+				"\nLike Counter: " + this.likeCount;
+				}
 }
