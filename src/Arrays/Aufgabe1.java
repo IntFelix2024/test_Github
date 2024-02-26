@@ -4,7 +4,7 @@ public class Aufgabe1 {
 	
 	public static int count5PercentJumps(int[]gains) {
 		int count = 0;
-		for(int i = 0; i < gains.length; i++) {
+		for(int i = 0; i < gains.length-1; i++) {
 			if(gains[i]*1.05>gains[i+1]) {
 				count ++;
 			}
