@@ -18,6 +18,16 @@ public abstract class Post {
 		this.comments = comments;
 	}
 	
+	
+	
+	@Override
+	public String toString() {
+		return "Post [id=" + id + ", userName=" + userName + ", timeStamp=" + timeStamp + ", likeCount=" + likeCount
+				+ ", comments=" + comments + "]";
+	}
+
+
+
 	public String getUserName() {
 		return userName;
 	}

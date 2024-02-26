@@ -5,12 +5,14 @@ import java.util.UUID;
 
 public class NewsFeed {
 
-	public ArrayList<Post> feed = new ArrayList<Post>();
+	public ArrayList<Post> feed;
 	
-	public NewsFeed(ArrayList<Post> feed) {
-		this.feed = feed;
+	//Constructor
+	public NewsFeed() {
+		this.feed = new ArrayList<Post>();
 	}
 
+	//getter, setter
 	public ArrayList<Post> getFeed() {
 		return feed;
 	}
@@ -19,6 +21,8 @@ public class NewsFeed {
 		this.feed = feed;
 	}
 
+	//Methods
+	
 	public void deletePost(UUID id) {	
 		for(Post p : feed) {
 			if(p.getId().equals(id)) {
