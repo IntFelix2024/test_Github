@@ -6,7 +6,7 @@ public class Aufgabe4 {
 		int magnify[][] = new int [array.length*factor][array[0].length*factor];
 		for(int x = 0; x < array.length; x++) {
 			for(int y = 0; y < array[0].length; y++) {
-				magnify[x*factor][y*factor] = array[x][y];
+			//	magnify[x*factor][y*factor] = array[x][y];
 				System.out.println(magnify[x][y]);
 			}
 		}
