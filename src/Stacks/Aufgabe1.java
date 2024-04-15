@@ -7,12 +7,13 @@ public class Aufgabe1{
 	public static String reverseString(String input) {
 		Stack <Character> stackIn = new Stack<>();
 		Stack <Character> stackOut = new Stack<>();
+		
 		for(int i = 0; i < input.length(); i++) {
 			stackIn.push(input.charAt(i));
 		}
 		
 		while (!stackIn.isEmpty()) {
-			stackOut.add(stackIn.lastElement());
+			stackOut.push(stackIn.pop());
 		}
 		String output = stackOut.toString();
 		return output;
