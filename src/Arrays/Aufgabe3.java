@@ -11,6 +11,7 @@ public class Aufgabe3 {
 //			if(distance( points[i].x,  points[i].y,  0,  0)) {
 				
 			}
+		return size;
 		}
 //}
 
