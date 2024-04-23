@@ -41,7 +41,7 @@ public class Fibonacci {
 
 
 public static void main(String[] args) {
-	int n = 50;
+	int n = 6;
 	System.out.println(fibonacciIterative(n));
 	System.out.println(fibonacciRecursive(n));
 	System.out.println(fibonacciArray(n));
