@@ -15,7 +15,7 @@ public class ArrayQueue {
 	}
 
 	/**
-	 * Elemt and das Ende der queue anfügen
+	 * Elemet and das Ende der queue anfügen
 	 * @param element
 	 */
 	public void enqueue(int element) {
